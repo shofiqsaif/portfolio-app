@@ -5,9 +5,46 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  line-height: 1.6;
+  background-color: #f8f9fa; /* Light background for the page */
+  color: #343a40; /* Default text color */
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+}
+
+main {
+  /* Add some padding or margin if needed */
+}
+
+/* Simple responsive adjustments */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+  .projects-grid {
+    grid-template-columns: 1fr; /* Stack projects on smaller screens */
+  }
+  .skills-container {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
 }

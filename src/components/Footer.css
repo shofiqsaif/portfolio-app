@@ -1,0 +1,18 @@
+.footer {
+  background-color: #333;
+  color: #ccc;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 2rem; /* Add some space above the footer */
+}
+
+/* Optional styles for social links */
+/* .social-links a {
+  color: #ccc;
+  margin: 0 0.5rem;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  color: white;
+} */ 
