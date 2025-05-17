@@ -1,11 +1,11 @@
-import React from 'react';
-import './Skills.css';
+import React from "react";
+import "./Skills.css";
 
 // Sample data - Replace with your actual skills
 const skills = {
-  Programming: ['Python', 'JavaScript', 'Java', 'C++', 'C'],
-  Web: ['HTML', 'CSS', 'Bootstrap', 'MongoDB', 'Express', 'React', 'Node.js'],
-  Tools: ['Git', 'Jira']
+  Programming: ["Python", "JavaScript", "Java", "C++", "C"],
+  Web: ["HTML", "CSS", "Bootstrap", "MongoDB", "Express", "React", "Node.js"],
+  Tools: ["Git", "Jira"],
 };
 
 function Skills() {
@@ -14,13 +14,13 @@ function Skills() {
       <h2>Skills</h2>
       <div className="skills-container">
         {Object.entries(skills).map(([category, skillList]) => (
-          <div key={category} className="skill-category">
-            <h3>{category.charAt(0).toUpperCase() + category.slice(1)}</h3>
-            <ul>
-              {skillList.map((skill, index) => (
-                <li key={index}>{skill}</li>
-              ))}
-            </ul>
+          <div
+            key={category}
+            className="skill-category"
+            style={{ marginBottom: "8px" }}
+          >
+            <span style={{ fontWeight: "bold" }}>{category}:</span>{" "}
+            {skillList.join(", ")}
           </div>
         ))}
       </div>
@@ -28,4 +28,4 @@ function Skills() {
   );
 }
 
-export default Skills; 
+export default Skills;

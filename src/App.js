@@ -1,11 +1,12 @@
-import './App.css';
-import Header from './components/Header';
-import About from './components/About';
-import WorkExperience from './components/WorkExperience';
-import Education from './components/Education';
-import Projects from './components/Projects';
-import Skills from './components/Skills';
-import Footer from './components/Footer';
+import "./App.css";
+import Header from "./components/Header";
+import About from "./components/About";
+import WorkExperience from "./components/WorkExperience";
+import Education from "./components/Education";
+import Projects from "./components/Projects";
+import Skills from "./components/Skills";
+import Footer from "./components/Footer";
+import Achievements from "./components/Achievements";
 
 function App() {
   return (
@@ -16,8 +17,8 @@ function App() {
         <WorkExperience />
         <Education />
         <Projects />
+        <Achievements />
         <Skills />
-        
       </main>
       <Footer />
     </div>
