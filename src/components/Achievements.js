@@ -13,7 +13,7 @@ const achievements = [
 
 function Achievements() {
   return (
-    <section className="achievements-section">
+    <section id="achievements" className="achievements-section">
       <h2>Achievements</h2>
       <ul className="achievements-list">
         {achievements.map((item, idx) => (
