@@ -6,9 +6,9 @@ function Header() {
     <header className="header">
       <nav>
         <ul>
-          <li>
+          {/* <li>
             <a href="#about">About</a>
-          </li>
+          </li> */}
           <li>
             <a href="#experience">Experience</a>
           </li>
@@ -18,9 +18,9 @@ function Header() {
           <li>
             <a href="#projects">Projects</a>
           </li>
-          <li>
+          {/* <li>
             <a href="#achievements">Achievements</a>
-          </li>
+          </li> */}
           <li>
             <a href="#skills">Skills</a>
           </li>

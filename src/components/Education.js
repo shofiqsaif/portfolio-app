@@ -1,15 +1,16 @@
-import React from 'react';
-import './Education.css';
+import React from "react";
+import "./Education.css";
 
 // Sample data - Replace with your actual education
 const educationList = [
   {
     id: 1,
-    degree: 'Bachelor of Science in Computer Science and Engineering',
-    institution: 'United International University, Dhaka',
-    years: '2016 – 2020',
-    details: 'CGPA: 3.51 / 4.00'
-  }
+    degree: "Bachelor of Science in Computer Science and Engineering",
+    institution: "United International University, Dhaka",
+    // years: '2016 – 2020',
+    years: "2020",
+    details: "CGPA: 3.51 / 4.00",
+  },
   // ,
   // {
   //   id: 2,
@@ -32,10 +33,12 @@ function Education() {
     <section id="education" className="education">
       <h2>Education</h2>
       <div className="education-list">
-        {educationList.map(edu => (
+        {educationList.map((edu) => (
           <div key={edu.id} className="education-item">
             <h3>{edu.degree}</h3>
-            <h4>{edu.institution} | {edu.years}</h4>
+            <h4>
+              {edu.institution} | {edu.years}
+            </h4>
             <p>{edu.details}</p>
           </div>
         ))}
@@ -44,4 +47,4 @@ function Education() {
   );
 }
 
-export default Education; 
+export default Education;
