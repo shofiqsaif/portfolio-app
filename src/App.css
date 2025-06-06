@@ -1,1 +1,17 @@
 /* Add your styles here */
+html {
+  scroll-behavior: smooth;
+}
+
+#education {
+  scroll-margin-top: 60px;
+}
+#experience {
+  scroll-margin-top: 60px;
+}
+#about {
+  scroll-margin-top: 60px;
+}
+#projects {
+  scroll-margin-top: 60px;
+}
