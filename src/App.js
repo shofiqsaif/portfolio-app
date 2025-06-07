@@ -7,9 +7,13 @@ import Education from "./components/Education";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Footer from "./components/Footer";
-import Achievements from "./components/Achievements";
+// import Achievements from "./components/Achievements";
+import { useEffect } from "react";
 
 function App() {
+  useEffect(() => {
+    document.title = "Shofiqul Islam";
+  }, []);
   return (
     <div className="App">
       <Header />
