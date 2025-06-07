@@ -36,6 +36,15 @@ function About() {
         >
           Codeforces
         </a>
+        |
+        <a
+          href="cv.pdf"
+          download="cv.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          CV
+        </a>
       </div>
       {/* <p className="intro-text">
         A passionate Computer Science and Engineering graduate with experience in software development, particularly with Python and web technologies. Eager to contribute to innovative projects and continuously learn new skills. Strong background in competitive programming and problem-solving.
