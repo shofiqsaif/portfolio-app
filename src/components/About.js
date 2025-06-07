@@ -38,8 +38,8 @@ function About() {
         </a>
         |
         <a
-          href="cv.pdf"
-          download="cv.pdf"
+          href="shofiqul_islam_cv.pdf"
+          download="shofiqul_islam_cv.pdf"
           target="_blank"
           rel="noopener noreferrer"
         >
